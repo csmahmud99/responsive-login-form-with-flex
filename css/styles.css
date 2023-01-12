@@ -1,0 +1,73 @@
+/* Header Styles */
+
+/* Header : Menu Styles */
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-item-container {
+    display: flex;
+}
+
+.menu-item-container li {
+    list-style: none;
+    margin-right: 5px;
+    font-size: 18px;
+    font-weight: 900;
+    border: 0;
+    border-radius: 8px;
+    background-color: royalblue;
+    padding: 8px;
+    color: #ffffff;
+
+}
+
+.menu-item-container li:hover {
+    background-color: blueviolet;
+}
+
+/* Header : Profile Styles */
+.profile {
+    color: royalblue;
+    padding: 12px;
+    Font-size: 18px;
+}
+
+.profile i {
+    margin-right: 15px;
+}
+
+
+/* Login form Styles */
+.login-form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rosybrown;
+    border-radius: 10px;
+    padding: 30px 20px;
+    margin-top: 8%;
+}
+
+.login-form h3{
+    text-align: center;
+}
+
+.login-form input {
+    margin-top: 10px;
+    font-size: 25px;
+    padding: 10px 5px;
+}
+
+.login-form input[type="submit"] {
+    background-color: goldenrod;
+    color:antiquewhite;
+    border: 0;
+    border-radius: 8px;
+    font-weight: 700;
+}

@@ -1,17 +1,45 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <title>Responsive Login Form with CSS Flexbox</title>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <!-- Linking with the main CSS file -->
-        <link rel="stylesheet" type="text/css" href="css/styles.css" />
-    </head>
+    <title>Responsive Login Form with CSS Flexbox</title>
 
-    <body>
-        
-    </body>
+    <!-- Linking with the main CSS file -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+
+    <!-- Font Awesome Icon Kit Code -->
+    <script src="https://kit.fontawesome.com/7dd099931a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <section class="header-nav">
+            <nav>
+                <ul class="menu-item-container">
+                    <li><i class="fa-solid fa-house"></i> Home</li>
+                    <li>Dashboard</li>
+                    <li>Inventory</li>
+                </ul>
+            </nav>
+
+            <div class="profile">
+                <i class="fa-solid fa-user" title="My Profile"></i>
+                <i class="fa-solid fa-power-off" title="Login/Lgout"></i>
+            </div>
+        </section>
+    </header>
+    <div class="login-form-container">
+        <form class="login-form">
+            <h3>Please Log In:</h3>
+            <input type="email" name="email" id="email" placeholder="your_email@gmail.com" />
+            <input type="password" name="password" id="password" placeholder="Strong-Password" />
+            <input type="submit" value="Submit" />
+        </form>
+    </div>
+</body>
+
 </html>
